@@ -3,7 +3,7 @@
 /* variables */
 
 .body { 
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -13,6 +13,9 @@
     --hero-heading-size: 3rem;
     --hero-subheading-size: 1.5rem;
     --hero-paragraph-size: 1rem;
+    --icon-text-size: 20px;
+    --icon-color: #f14949;
+
         }
     
 
@@ -88,4 +91,48 @@
     font-size: var(--hero-paragraph-size);
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.what-we-do {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+    min-height: 65vh;
+
+}
+
+.icon-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    align-items: baseline;
+    padding: 20px;
+    margin-top: 2rem;
+}
+
+.what-we-do-text {
+    font-size: var(--hero-heading-size);
+    margin-bottom: 1rem;
+}
+
+.description-text2 {
+    font-size: var(--hero-paragraph-size);
+    max-width: 1000px;
+    color: #f14949;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+ 
 }
