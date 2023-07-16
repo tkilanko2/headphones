@@ -129,6 +129,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 a {
@@ -141,9 +142,21 @@ a {
 .our-results-section {
     display: flex;
     flex-direction: column;   
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background-image: url(images2/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     min-height: 65vh;
+}
 
+.our-results-header {
+    font-size: var(--hero-heading-size);
+    color: white;
+}
+
+.description-text3 {
+    max-width: 1000px;
+    font-size: var(--hero-paragraph-size);
+    color: white;
 }
